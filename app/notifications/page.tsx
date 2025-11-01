@@ -109,7 +109,7 @@ export default function NotificationsPage() {
       ) : (
         <div className="bg-white shadow overflow-hidden sm:rounded-md">
           <ul className="divide-y divide-gray-200">
-            {notifications.map((notification) => (
+            {notifications.length > 0 && notifications.map((notification) => (
               <li key={notification._id}>
                 <div className="px-4 py-4 sm:px-6">
                   <div className="flex items-center justify-between">
