@@ -2,6 +2,8 @@
 
 A Next.js frontend application for managing and sending notifications.
 
+Live- Link : https://notification-system-frontend-jqss.onrender.com/login
+
 ## Features
 
 - User authentication (Login/Signup)
